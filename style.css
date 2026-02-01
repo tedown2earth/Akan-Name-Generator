@@ -9,3 +9,10 @@
 #body-structure{
     background-color: burlywood;
 }
+#paragraph{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    font-style: oblique;
+    color: rgb(42, 91, 165);
+}
