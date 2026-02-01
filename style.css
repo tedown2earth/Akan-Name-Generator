@@ -16,3 +16,7 @@
     font-style: oblique;
     color: rgb(42, 91, 165);
 }
+#akanForm{
+    display: flex;
+    flex-direction: column;
+}
