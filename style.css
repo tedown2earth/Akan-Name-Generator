@@ -48,3 +48,12 @@ select{
 #day{
     font-size: large;
 }
+button{
+    padding: 20px;
+    margin: 30px;
+    background: #637cea;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
