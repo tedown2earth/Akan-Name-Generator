@@ -57,3 +57,14 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
+#result{
+    margin: 30px;
+    padding: 12px;
+    background: #f0f4ff;
+    border-left: 4px solid #667eea;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    text-align: center; 
+    
+}
