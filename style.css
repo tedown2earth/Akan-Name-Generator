@@ -16,7 +16,35 @@
     font-style: oblique;
     color: rgb(42, 91, 165);
 }
+#sub-topic{
+    text-align: center;
+    border: 5px;
+    padding: 15px;
+    margin: 15px;
+    color: rosybrown;
+    background-color: #c3c3c3
+}
 #akanForm{
     display: flex;
     flex-direction: column;
+}
+label{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: crimson;
+}
+select{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#year{
+    font-size: large;
+}
+#month{
+    font-size: large;
+}
+#day{
+    font-size: large;
 }
