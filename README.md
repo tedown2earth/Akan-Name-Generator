@@ -10,3 +10,4 @@ Email: tedmugixd@gmail.com
 Mobile Number: 0112834449
 
 ## Live Site
+https://tedown2earth.github.io/Akan-Name-Generator/
