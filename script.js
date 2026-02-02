@@ -1,7 +1,7 @@
 const form = document.getElementById("akanForm");
 const resultDiv = document.getElementById("result");
 
-form.addEventListener("submit", function(event) {
+form.addEventListener("submit", function(e) {
   event.preventDefault();
 
   // Get user input
