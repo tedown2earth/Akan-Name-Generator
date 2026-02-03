@@ -15,7 +15,7 @@ form.addEventListener("submit", function(e) {
     alert = "Please enter a valid date and select your gender.";
     return;
   }
-
+    // Calculate day of the week using the given formula
    const CC = Math.floor(year / 100);
   const YY = year % 100;
 
