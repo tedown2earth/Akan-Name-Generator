@@ -16,9 +16,15 @@ form.addEventListener("submit", function(e) {
     return;
   }
 
-  // Find out what day of the week the person was born
-  const birthDate = new Date(year, month - 1, day);
-  const dayOfWeek = birthDate.getDay(); // 0 = Sunday, 6 = Saturday
+   const CC = Math.floor(year / 100);
+  const YY = year % 100;
+
+  let dayOfWeek =
+    ( (4 * CC - 2 * CC - 1) +
+      Math.floor((5 * YY) / 4) +
+      Math.floor((26 * (month + 1)) / 10) +
+      day
+    ) % 7;
 
   // Akan names
   const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
