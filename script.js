@@ -12,7 +12,7 @@ form.addEventListener("submit", function(e) {
 
   // Check for invalid input
   if (!day || !month || !year || !gender || day < 1 || day > 31 || month < 1 || month > 12) {
-    resultDiv.textContent = "Please enter a valid date and select your gender.";
+    alert = "Please enter a valid date and select your gender.";
     return;
   }
 
